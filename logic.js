@@ -92,7 +92,7 @@
                         $('#midpick .botlife').text(enemypick);
                         $('#midpick .bot2').remove();
                         $('#midpick .bot3').remove();
-                        $('#midpick .bot4').html('<img src="images/win.png">').addClass('win float');
+                        $('#midpick .bot4').html('<img src="images/win.png">');
                         $('#toppick .botlife').text(originalHP);
                         $('#bottompick .bot2').attr('class','bot3');
                         // $('.bot3').addClass('float');
