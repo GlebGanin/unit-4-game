@@ -83,7 +83,8 @@
                         playerpick = 0;
                         $('#toppick .botlife').text(playerpick);
                         $('#toppick .bot').hide();
-                        $(document).on('click', '#topbar');//Refresh page 
+                        $(document).on('click', '#topbar', function(reload) {
+                                       location.reload();}
                     }
 
                     if (newenemypick <= 0)  {
