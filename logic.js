@@ -83,9 +83,9 @@
                         playerpick = 0;
                         $('#toppick .botlife').text(playerpick);
                         $('#toppick .bot').hide();
-                        $(document).on('click', '#topbar', function(reload) {
-                                       location.reload();}
-                    }
+                        $(document).on('click', '#topbar', function() {
+                                        location.reload();
+                                        });
 
                     if (newenemypick <= 0)  {
                         $("#topbar").html('<img src="images/youwin.png">');
