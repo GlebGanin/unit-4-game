@@ -3,23 +3,25 @@
 <head>
     <title>Bacteria World </title>
     
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
-    <!-- //Character Names: [H1 END1, E-COLD-EYE, Kill-Bolla, ShitGella -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
 </head>
 
 
 <body>
 <center>
-        <!-- <img id="attack" src="images/attack.png"> -->
+
     <div class="border" id="gameboard">
-            <div class="border" id="topbar">
+            
+            <div id="topbar">
                     
                     <h1> WELCOME TO BACTERIA WORLD </h1>
 
             </div>
-
 
 
             <div class="haze" id="toppick">
@@ -27,7 +29,7 @@
                     <span class="bot" id="spanallbots">
                             <span class="lifetext"> HP:    </span>
                              <span class="botlife" value="200"> 200 </span>
-                              <img class="green" src="images/bacteria1.jpg">
+                              <img class="green" src="assets/images/bacteria1.jpg">
                              
                     </span>
 
@@ -35,21 +37,21 @@
                     <span class="bot" id="spanallbots">
                             <span class="lifetext"> HP:    </span>
                             <span class="botlife" value="300"> 300    </span>
-                        <img class="green" src="images/bacteria2.jpg">
+                        <img class="green" src="assets/images/bacteria2.jpg">
                     </span>
 
 
                     <span class="bot" id="spanallbots">
                             <span class="lifetext"> HP:    </span>
                             <span class="botlife" value="250">250  </span>
-                        <img class="green" src="images/bacteria3.jpg">
+                        <img class="green" src="assets/images/bacteria3.jpg">
                     </span>
 
 
                     <span class="bot" id="spanallbots">
                              <span class="lifetext"> HP:    </span>
                             <span class="botlife" value="275">  275   </span>
-                        <img class="green" src="images/bacteria4.jpg">
+                        <img class="green" src="assets/images/bacteria4.jpg">
                     </span>
                 </div> 
 
@@ -57,23 +59,20 @@
             </div>
 
 
-
-            <div class="border haze" id="midpick">
+            <div class="haze" id="midpick">
 
                 <div id="gamestart">
 
-                        <img class="green" src="images/start.png">
+                        <img class="green" src="assets/images/start.png">
                     
                 </div>
-              
-                    
-
+            
 
             </div>
 
 
 
-            <div class="border haze" id="bottompick">
+            <div class="haze" id="bottompick">
 
                     
             </div>
@@ -96,7 +95,7 @@
 </center>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="logic.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html>
